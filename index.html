@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/keyboard.css">
         <link rel="stylesheet" href="assets/css/pipes.css">
         <link rel="stylesheet" href="assets/css/portfolio.css">
         <link rel="stylesheet" href="assets/css/highlight.css">
@@ -27,7 +28,7 @@
             <div class="container">
                 <div class="row">
                     <div class="header col-md-12">
-                    <nav class="navbar navbar-expand-lg navbar-dark">
+                    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
                         <a class="navbar-brand" href="#">David Li</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -73,7 +74,20 @@
         <section id="about">
             <div class="container">
                 <div class="row">
-                    About
+                    <div class="col-md-12 secTitle">
+                        <h2 class="text-center">About Me</h2>
+                    </div> 
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="float-md-left">
+                            <img class = "rounded-circle pr-3" src="assets/images/img.jpg" alt="">
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et arcu vel ligula sagittis hendrerit. Morbi massa ipsum, efficitur in velit in, luctus tincidunt massa. In eget turpis in nisl commodo congue eu eu elit. Integer justo lacus, dapibus et lobortis vitae, pretium eget ligula. In feugiat quam eu nisl congue, ac volutpat odio luctus. Sed euismod risus nec metus sagittis condimentum. Donec elementum commodo dui. Nullam ut eleifend metus. Maecenas ullamcorper imperdiet suscipit. Ut a dolor eu velit convallis gravida. Proin turpis arcu, faucibus ut enim aliquam, lobortis rutrum nisl. Vivamus feugiat nunc rutrum, pretium orci eget, dapibus ante. Curabitur a pretium est.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et arcu vel ligula sagittis hendrerit. Morbi massa ipsum, efficitur in velit in, luctus tincidunt massa. In eget turpis in nisl commodo congue eu eu elit. Integer justo lacus, dapibus et lobortis vitae, pretium eget ligula. In feugiat quam eu nisl congue, ac volutpat odio luctus. Sed euismod risus nec metus sagittis condimentum. Donec elementum commodo dui. Nullam ut eleifend metus. Maecenas ullamcorper imperdiet suscipit. Ut a dolor eu velit convallis gravida. Proin turpis arcu, faucibus ut enim aliquam, lobortis rutrum nisl. Vivamus feugiat nunc rutrum, pretium orci eget, dapibus ante. Curabitur a pretium est.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -96,48 +110,39 @@
                             <div class="slider-wrapper flex">
                                 <!-- high light #1 -->
                                 <div class="slide flex">
-                                    <div class="slide-image slider-link prev"><img src="https://goranvrban.com/codepen/img2.jpg">
+                                    <div class="slide-image slider-link prev"><img src="assets/images/cat_rpg.jpg">
                                         <div class="overlay"></div>
                                     </div>
                                     <div class="slide-content">
-                                        <div class="slide-date">30.07.2017.</div>
                                         <div class="slide-title">CAT GAME</div>
-                                        <div class="slide-text">Lorem ipsum dolor sit amet, ad est abhorreant</div>
-                                        <div class="slide-more">READ MORE</div>
+                                        <div class="slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et arcu vel ligula sagittis hendrerit. Morbi massa ipsum, efficitur in velit in, luctus tincidunt massa. In eget turpis in nisl commodo congue eu eu elit. Integer justo lacus, dapibus et lobo</div>
+                                        <div class="slide-more"><a href="https://davionli.github.io/RPG-Game">READ MORE</a></div>
                                     </div>	
                                 </div>
                                 <!-- high light #2 -->
                                 <div class="slide flex">
-                                    <div class="slide-image slider-link next"><img src="https://goranvrban.com/codepen/img3.jpg">
+                                    <div class="slide-image slider-link next"><img src="assets/images/trival.jpg">
                                         <div class="overlay"></div>
                                 </div>
                                     <div class="slide-content">
-                                        <div class="slide-date">30.08.2017.</div>
                                         <div class="slide-title">POKEMON RPS</div>
-                                        <div class="slide-text">Lorem ipsum dolor sit amet, ad est abhorreant  </div>
+                                        <div class="slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et arcu vel ligula sagittis hendrerit. Morbi massa ipsum, efficitur in velit in, luctus tincidunt massa. In eget turpis in nisl commodo congue eu eu elit. Integer justo lacus, dapibus et lobo </div>
                                         <div class="slide-more">READ MORE</div>
                                     </div>	
                                 </div>	
                                 <!-- high light #3 -->
                                 <div class="slide flex">
-                                    <div class="slide-image slider-link next"><img src="https://goranvrban.com/codepen/img5.jpg"><div class="overlay"></div></div>
+                                    <div class="slide-image slider-link next"><img src="assets/images/make_gifs.jpg">
+                                        <div class="overlay"></div>
+                                    </div>
                                     <div class="slide-content">
-                                        <div class="slide-date">30.09.2017.</div>
                                         <div class="slide-title">MAKE SOME GIFS</div>
-                                        <div class="slide-text">Lorem ipsum dolor sit amet, ad est abhorreant  </div>
+                                        <div class="slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et arcu vel ligula sagittis hendrerit. Morbi massa ipsum, efficitur in velit in, luctus tincidunt massa. In eget turpis in nisl commodo congue eu eu elit. Integer justo lacus, dapibus et lobo</div>
                                         <div class="slide-more">READ MORE</div>
                                     </div>	
                                 </div>
-                                <!-- high light #4 -->
-                                <div class="slide flex">
-                                    <div class="slide-image slider-link next"><img src="https://goranvrban.com/codepen/img6.jpg"><div class="overlay"></div></div>
-                                    <div class="slide-content">
-                                        <div class="slide-date">30.10.2017.</div>
-                                        <div class="slide-title">TRAIN SCHEDULE</div>
-                                        <div class="slide-text">Lorem ipsum dolor sit amet, ad est abhorreant  </div>
-                                        <div class="slide-more">READ MORE</div>
-                                    </div>	
-                                </div>
+
+                                
                             </div>
                 
                             <div class="arrows">
@@ -265,8 +270,147 @@
         <!--|      CONTACT ME     |-->
         <!--|                     |-->
         <!--------------------------->
-        
-        
+        <!-- <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 secTitle">
+                        <h2 class="text-center">Contact</h2>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 secTitle">
+                            <h2 class="text-center">Contact</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                                <div class="keyboard" id="keyboard">
+                                        <div class="row">
+                                          <kbd tabindex=1 data-key="`" data-alt="~"></kbd>
+                                          <kbd data-key="1" data-alt="!"></kbd>
+                                          <kbd data-key="2" data-alt="@"></kbd>
+                                          <kbd data-key="3" data-alt="#"></kbd>
+                                          <kbd data-key="4" data-alt="$"></kbd>
+                                          <kbd data-key="5" data-alt="%"></kbd>
+                                          <kbd data-key="6" data-alt="^"></kbd>
+                                          <kbd data-key="7" data-alt="&"></kbd>
+                                          <kbd data-key="8" data-alt="*"></kbd>
+                                          <kbd data-key="9" data-alt="("></kbd>
+                                          <kbd data-key="0" data-alt=")"></kbd>
+                                          <kbd data-key="-" data-alt="_"></kbd>
+                                          <kbd data-key="=" data-alt="+"></kbd>
+                                          <kbd data-key="backspace"></kbd>
+                                        </div>
+                                        <div class="row">
+                                          <kbd data-key="tab"></kbd>
+                                          <kbd data-key="q"></kbd>
+                                          <kbd data-key="w"></kbd>
+                                          <kbd data-key="e"></kbd>
+                                          <kbd data-key="r"></kbd>
+                                          <kbd data-key="t"></kbd>
+                                          <kbd data-key="y"></kbd>
+                                          <kbd data-key="u"></kbd>
+                                          <kbd data-key="i"></kbd>
+                                          <kbd data-key="o"></kbd>
+                                          <kbd data-key="p"></kbd>
+                                          <kbd data-key="[" data-alt="{"></kbd>
+                                          <kbd data-key="]" data-alt="}"></kbd>
+                                          <kbd data-key="\" data-alt="|" id='backslash'></kbd>
+                                        </div>
+                                        <div class="row">
+                                          <kbd data-key="caps"></kbd>
+                                          <kbd data-key="a"></kbd>
+                                          <kbd data-key="s"></kbd>
+                                          <kbd data-key="d"></kbd>
+                                          <kbd data-key="f"></kbd>
+                                          <kbd data-key="g"></kbd>
+                                          <kbd data-key="h"></kbd>
+                                          <kbd data-key="j"></kbd>
+                                          <kbd data-key="k"></kbd>
+                                          <kbd data-key="l"></kbd>
+                                          <kbd data-key=";" data-alt=":"></kbd>
+                                          <kbd data-key="'" data-alt='"' id='quote'></kbd>
+                                          <kbd data-key="enter"></kbd>
+                                        </div>
+                                        <div class="row">
+                                          <kbd data-key="lshift"></kbd>
+                                          <kbd data-key="z"></kbd>
+                                          <kbd data-key="x"></kbd>
+                                          <kbd data-key="c"></kbd>
+                                          <kbd data-key="v"></kbd>
+                                          <kbd data-key="b"></kbd>
+                                          <kbd data-key="n"></kbd>
+                                          <kbd data-key="m"></kbd>
+                                          <kbd data-key="," data-alt="<"></kbd>
+                                          <kbd data-key="." data-alt=">"></kbd>
+                                          <kbd data-key="/" data-alt="?"></kbd>
+                                          <kbd data-key="rshift"></kbd>
+                                        </div>
+                                        <div class="row">
+                                          <kbd data-key="lctrl"></kbd>
+                                          <kbd data-key="lwin"></kbd>
+                                          <kbd data-key="lalt"></kbd>
+                                          <kbd data-key="space"></kbd>
+                                          <kbd data-key="ralt"></kbd>
+                                          <kbd data-key="rwin"></kbd>
+                                          <kbd data-key="rctx"></kbd>
+                                          <kbd data-key="rctrl"></kbd>
+                                        </div>  
+                                      </div>
+                        </div>
+                        <div class="col-md-4" style="padding-top: 2.5vh">
+                            <form name="sentMessage" id="contactForm" novalidate="">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name.">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message." rows="4"></textarea>
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 text-center">
+                                        <div id="success"></div>
+                                        <button type="submit" class="btn btn-info">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="footer col-md-12">
+                        <p class="text-center mt-3">copyright &copy</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -280,6 +424,7 @@
         <script src="assets/javascript/app.js"></script>
         <script src="assets/javascript/pipes.js"></script>
         <script src="assets/javascript/highlight.js"></script>
+        <script src="assets/javascript/keyboard.js"></script>
     </body>
 </html>
         
