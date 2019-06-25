@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c86fdc5885.js"></script>
         <link rel="stylesheet" href="assets/css/keyboard.css">
         <link rel="stylesheet" href="assets/css/pipes.css">
         <link rel="stylesheet" href="assets/css/portfolio.css">
@@ -36,13 +37,16 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link page-scroll" href="#about">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Portfolio</a>
+                                        <a class="nav-link page-scroll" href="#highlight">Highlight</a>
+                                    </li>
+                                <li class="nav-item">
+                                    <a class="nav-link page-scroll" href="#portfolio">Portfolio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link page-scroll" href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -178,7 +182,7 @@
                     <div class="col-md-4">
                         <div class="ot-portfolio-item">
                             <figure class="effect-bubba">
-                                <img src="assets/images/portfolio-1.jpg" width="400" alt="img02" class="img-responsive" />
+                                <img src="assets/images/portfolio-1.jpg" width="350" alt="img02" class="img-responsive" />
                                 <figcaption>
                                     <h2>CAT WAR GAME</h2>
                                     <p>Branding, Design</p>
@@ -192,7 +196,7 @@
                     <div class="col-md-4">
                         <div class="ot-portfolio-item">
                             <figure class="effect-bubba">
-                                <img src="assets/images/portfolio-2.jpg"  width="400" alt="img02" class="img-responsive" />
+                                <img src="assets/images/portfolio-2.jpg"  width="350" alt="img02" class="img-responsive" />
                                 <figcaption>
                                     <h2>MAKE SOME GIFS</h2>
                                     <p>Branding, Web Design</p>
@@ -206,7 +210,7 @@
                     <div class="col-md-4">
                         <div class="ot-portfolio-item">
                             <figure class="effect-bubba">
-                                <img src="assets/images/portfolio-3.jpg"  width="400" alt="img02" class="img-responsive" />
+                                <img src="assets/images/portfolio-3.jpg"  width="350" alt="img02" class="img-responsive" />
                                 <figcaption>
                                     <h2>POKEMON RPS</h2>
                                     <p>Branding, Web Design</p>
@@ -223,7 +227,7 @@
                     <div class="col-md-4">
                         <div class="ot-portfolio-item">
                             <figure class="effect-bubba">
-                                <img src="assets/images/portfolio-1.jpg" width="400" alt="img02" class="img-responsive" />
+                                <img src="assets/images/portfolio-1.jpg" width="350" alt="img02" class="img-responsive" />
                                 <figcaption>
                                     <h2>TRAIN SCHEDULE</h2>
                                     <p>Branding, Design</p>
@@ -237,7 +241,7 @@
                     <div class="col-md-4">
                         <div class="ot-portfolio-item">
                             <figure class="effect-bubba">
-                                <img src="assets/images/portfolio-2.jpg"  width="400" alt="img02" class="img-responsive" />
+                                <img src="assets/images/portfolio-2.jpg"  width="350" alt="img02" class="img-responsive" />
                                 <figcaption>
                                     <h2>TBD #1</h2>
                                     <p>Branding, Web Design</p>
@@ -251,7 +255,7 @@
                     <div class="col-md-4">
                         <div class="ot-portfolio-item">
                             <figure class="effect-bubba">
-                                <img src="assets/images/portfolio-3.jpg"  width="400" alt="img02" class="img-responsive" />
+                                <img src="assets/images/portfolio-3.jpg"  width="350" alt="img02" class="img-responsive" />
                                 <figcaption>
                                     <h2>TBD #2</h2>
                                     <p>Branding, Web Design</p>
@@ -270,15 +274,6 @@
         <!--|      CONTACT ME     |-->
         <!--|                     |-->
         <!--------------------------->
-        <!-- <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 secTitle">
-                        <h2 class="text-center">Contact</h2>
-                    </div>
-                </div>
-            </div>
-        </section> -->
         <section id="contact">
                 <div class="container">
                     <div class="row">
@@ -399,7 +394,9 @@
                 </div>
         </section>
 
-
+        <p id="back-top">
+            <a href="#top"><i class="fa fa-angle-up"></i></a>
+        </p>
 
 
         <footer>
@@ -412,10 +409,9 @@
             </div>
         </footer>
 
-        
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
         crossorigin="anonymous"></script>
@@ -423,7 +419,9 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+        <script src="assets/javascript/owl.carousel.min.js"></script>
         <script src="assets/javascript/app.js"></script>
+        <script src="assets/javascript/theme-scripts.js"></script>
         <script src="assets/javascript/pipes.js"></script>
         <script src="assets/javascript/highlight.js"></script>
         <script src="assets/javascript/keyboard.js"></script>
