@@ -1,74 +1,285 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Portfolio</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <title>Portfolio</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/pipes.css">
+        <link rel="stylesheet" href="assets/css/portfolio.css">
+        <link rel="stylesheet" href="assets/css/highlight.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        
+        <!--------------------------->
+        <!--|                     |-->
+        <!--|       NAV BAR       |-->
+        <!--|                     |-->
+        <!--------------------------->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="header col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <a class="navbar-brand" href="#">David Li</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <!--------------------------->
+        <!--|                     |-->
+        <!--|        PIPES        |-->
+        <!--|                     |-->
+        <!--------------------------->
+        <section id="pipes">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" style="height: 90vh">
+                        <canvas></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
+        <!--------------------------->
+        <!--|                     |-->
+        <!--|      ABOUT ME       |-->
+        <!--|                     |-->
+        <!--------------------------->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    About
+                </div>
+            </div>
+        </section>
+
+        <!--------------------------->
+        <!--|                     |-->
+        <!--|     HIGHT LIGHT     |-->
+        <!--|                     |-->
+        <!--------------------------->
+        <section id="highlight">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 secTitle">
+                        <h2 class="text-center">Hight Light</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="slider">
+                            <div class="slider-wrapper flex">
+                                <!-- high light #1 -->
+                                <div class="slide flex">
+                                    <div class="slide-image slider-link prev"><img src="https://goranvrban.com/codepen/img2.jpg">
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <div class="slide-content">
+                                        <div class="slide-date">30.07.2017.</div>
+                                        <div class="slide-title">CAT GAME</div>
+                                        <div class="slide-text">Lorem ipsum dolor sit amet, ad est abhorreant</div>
+                                        <div class="slide-more">READ MORE</div>
+                                    </div>	
+                                </div>
+                                <!-- high light #2 -->
+                                <div class="slide flex">
+                                    <div class="slide-image slider-link next"><img src="https://goranvrban.com/codepen/img3.jpg">
+                                        <div class="overlay"></div>
+                                </div>
+                                    <div class="slide-content">
+                                        <div class="slide-date">30.08.2017.</div>
+                                        <div class="slide-title">POKEMON RPS</div>
+                                        <div class="slide-text">Lorem ipsum dolor sit amet, ad est abhorreant  </div>
+                                        <div class="slide-more">READ MORE</div>
+                                    </div>	
+                                </div>	
+                                <!-- high light #3 -->
+                                <div class="slide flex">
+                                    <div class="slide-image slider-link next"><img src="https://goranvrban.com/codepen/img5.jpg"><div class="overlay"></div></div>
+                                    <div class="slide-content">
+                                        <div class="slide-date">30.09.2017.</div>
+                                        <div class="slide-title">MAKE SOME GIFS</div>
+                                        <div class="slide-text">Lorem ipsum dolor sit amet, ad est abhorreant  </div>
+                                        <div class="slide-more">READ MORE</div>
+                                    </div>	
+                                </div>
+                                <!-- high light #4 -->
+                                <div class="slide flex">
+                                    <div class="slide-image slider-link next"><img src="https://goranvrban.com/codepen/img6.jpg"><div class="overlay"></div></div>
+                                    <div class="slide-content">
+                                        <div class="slide-date">30.10.2017.</div>
+                                        <div class="slide-title">TRAIN SCHEDULE</div>
+                                        <div class="slide-text">Lorem ipsum dolor sit amet, ad est abhorreant  </div>
+                                        <div class="slide-more">READ MORE</div>
+                                    </div>	
+                                </div>
+                            </div>
+                
+                            <div class="arrows">
+                                <a href="#" title="Previous" class="arrow slider-link prev"></a>
+                                <a href="#" title="Next" class="arrow slider-link next"></a>
+                            </div>
+                        </div>
     
-    
-    <div class="row">
-        <!-- start portfolio item -->
-        <div class="col-md-4">
-            <div class="ot-portfolio-item">
-                <figure class="effect-bubba">
-                    <img src="images/demo/portfolio-1.jpg" alt="img02" class="img-responsive" />
-                    <figcaption>
-                        <h2>Dean & Letter</h2>
-                        <p>Branding, Design</p>
-                        <a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
-                    </figcaption>
-                </figure>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- end portfolio item -->
-        <!-- start portfolio item -->
-        <div class="col-md-4">
-            <div class="ot-portfolio-item">
-                <figure class="effect-bubba">
-                    <img src="images/demo/portfolio-2.jpg" alt="img02" class="img-responsive" />
-                    <figcaption>
-                        <h2>Startup Framework</h2>
-                        <p>Branding, Web Design</p>
-                        <a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
-                    </figcaption>
-                </figure>
+        </section>
+
+
+
+
+        <!--------------------------->
+        <!--|                     |-->
+        <!--|      PORTFOLIO      |-->
+        <!--|                     |-->
+        <!--------------------------->
+
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 secTitle">
+                            <h2 class="text-center">Portfolio</h2>
+                    </div>
+                </div>
+                <!-- Row #1 -->
+                <div class="row">
+                    <!-- start portfolio item -->
+                    <div class="col-md-4">
+                        <div class="ot-portfolio-item">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/portfolio-1.jpg" width="400" alt="img02" class="img-responsive" />
+                                <figcaption>
+                                    <h2>CAT WAR GAME</h2>
+                                    <p>Branding, Design</p>
+                                    <a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <div class="col-md-4">
+                        <div class="ot-portfolio-item">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/portfolio-2.jpg"  width="400" alt="img02" class="img-responsive" />
+                                <figcaption>
+                                    <h2>MAKE SOME GIFS</h2>
+                                    <p>Branding, Web Design</p>
+                                    <a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <div class="col-md-4">
+                        <div class="ot-portfolio-item">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/portfolio-3.jpg"  width="400" alt="img02" class="img-responsive" />
+                                <figcaption>
+                                    <h2>POKEMON RPS</h2>
+                                    <p>Branding, Web Design</p>
+                                    <a href="#" data-toggle="modal" data-target="#Modal-3">View more</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
+                </div>
+                <!-- Row #2 -->
+                <div class="row">
+                    <!-- start portfolio item -->
+                    <div class="col-md-4">
+                        <div class="ot-portfolio-item">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/portfolio-1.jpg" width="400" alt="img02" class="img-responsive" />
+                                <figcaption>
+                                    <h2>TRAIN SCHEDULE</h2>
+                                    <p>Branding, Design</p>
+                                    <a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <div class="col-md-4">
+                        <div class="ot-portfolio-item">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/portfolio-2.jpg"  width="400" alt="img02" class="img-responsive" />
+                                <figcaption>
+                                    <h2>TBD #1</h2>
+                                    <p>Branding, Web Design</p>
+                                    <a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <div class="col-md-4">
+                        <div class="ot-portfolio-item">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/portfolio-3.jpg"  width="400" alt="img02" class="img-responsive" />
+                                <figcaption>
+                                    <h2>TBD #2</h2>
+                                    <p>Branding, Web Design</p>
+                                    <a href="#" data-toggle="modal" data-target="#Modal-3">View more</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- end portfolio item -->
+                </div>  
             </div>
-        </div>
-        <!-- end portfolio item -->
-        <!-- start portfolio item -->
-        <div class="col-md-4">
-            <div class="ot-portfolio-item">
-                <figure class="effect-bubba">
-                    <img src="images/demo/portfolio-3.jpg" alt="img02" class="img-responsive" />
-                    <figcaption>
-                        <h2>Lamp & Velvet</h2>
-                        <p>Branding, Web Design</p>
-                        <a href="#" data-toggle="modal" data-target="#Modal-3">View more</a>
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-        <!-- end portfolio item -->
-    </div>
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+        </section>
+        
+        <!--------------------------->
+        <!--|                     |-->
+        <!--|      CONTACT ME     |-->
+        <!--|                     |-->
+        <!--------------------------->
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+        <script src="assets/javascript/app.js"></script>
+        <script src="assets/javascript/pipes.js"></script>
+        <script src="assets/javascript/highlight.js"></script>
+    </body>
 </html>
+        

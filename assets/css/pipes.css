@@ -1,0 +1,11 @@
+* {
+    /* box-sizing: border-box; */
+
+}
+canvas {
+    touch-action: none;
+    /* float: bottom; */
+    /* position: fixed; */
+    /* height: 50vh; */
+    width: 100%;
+}

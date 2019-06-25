@@ -1,0 +1,17 @@
+body {
+    background: #111; 
+    font-family: 'Bungee Inline', cursive;
+    overflow-x: hidden;
+    -webkit-font-smoothing: 
+    antialiased; margin: 0;
+}
+.navbar {
+    background: #111;
+    font-family: 'Bungee Inline', cursive;
+}
+.secTitle {
+    margin-top: 30px;
+}
+.secTitle h2 {
+    color: white;
+}
